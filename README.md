@@ -18,6 +18,7 @@ A compatible web browser (e.g., Google Chrome)
 Download or clone the project repository containing the Jupyter Notebook and all necessary files:
 
 bash
+
 git clone <https://github.com/jaiganesh362/stock_movement_scraper.git>
 
 cd stock_movement_scraper
