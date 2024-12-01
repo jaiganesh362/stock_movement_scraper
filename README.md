@@ -16,6 +16,45 @@ A compatible web browser (e.g., Google Chrome)
 Download or clone the project repository containing the Jupyter Notebook and all necessary files:
 
 bash
-Copy code
-git clone <repository_url>
-cd <repository_name>
+git clone <https://github.com/jaiganesh362/stock_movement_scraper.git>
+cd <stock_movement_scraper>
+
+# 3. Install Dependencies
+Install the required libraries by running the following command:
+
+pip install ntscraper
+pip install pandas
+pip install scikit-learn
+pip install textblob
+pip install matplotlib
+pip install numpy
+pip install sklearn
+pip install selenium
+
+# 4. Configure WebDriver for Selenium
+Download the WebDriver compatible with your web browser:
+ChromeDriver
+GeckoDriver for Firefox
+Place the downloaded WebDriver in your system's PATH or specify its location in the code.
+
+# 5. Running the Jupyter Notebook
+Open a terminal or command prompt in the project directory.
+Open the stock_predicting_model.ipynb file from the Jupyter interface.
+Run all cells sequentially to:
+   `Scrape data using ntscraper.
+   `Process and clean the scraped data.
+  ` Perform sentiment analysis and feature extraction.
+   `Train and evaluate a stock movement prediction model.
+
+# 6. Expected Outputs
+Scraped Data: Saved as tweets.csv in the project directory.
+Visualizations: Graphs and charts will be displayed within the notebook.
+
+# Project Structure
+stock_predicting_model.ipynb: Main notebook for scraping, analysis, and prediction.
+requirements.txt: List of dependencies.
+README.md: Instructions and setup details.
+
+
+
+
