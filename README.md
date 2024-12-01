@@ -21,15 +21,7 @@ cd <stock_movement_scraper>
 
 # 3. Install Dependencies
 Install the required libraries by running the following command:
-
-pip install ntscraper
-pip install pandas
-pip install scikit-learn
-pip install textblob
-pip install matplotlib
-pip install numpy
-pip install sklearn
-pip install selenium
+open requirements.txt file to install the libraries
 
 # 4. Configure WebDriver for Selenium
 Download the WebDriver compatible with your web browser:
@@ -47,7 +39,7 @@ Run all cells sequentially to:
    `Train and evaluate a stock movement prediction model.
 
 # 6. Expected Outputs
-Scraped Data: Saved as tweets.csv in the project directory,
+Scraped Data: Saved as tweets.csv in the project directory
 Visualizations: Graphs and charts will be displayed within the notebook.
 
 # Project Structure
