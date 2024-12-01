@@ -47,7 +47,7 @@ Run all cells sequentially to:
    `Train and evaluate a stock movement prediction model.
 
 # 6. Expected Outputs
-Scraped Data: Saved as tweets.csv in the project directory.
+Scraped Data: Saved as tweets.csv in the project directory,
 Visualizations: Graphs and charts will be displayed within the notebook.
 
 # Project Structure
